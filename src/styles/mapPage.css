@@ -1,0 +1,184 @@
+.google-map {
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+.marker-icon {
+    position: relative;
+}
+.marker-icon img{
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* FILTER CSS */
+.filter {
+    display: none !important;
+    }
+.filter-heading {
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.4;
+margin: 15px 0;
+color: #121212;
+display: none;
+}
+.checkbox-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px;
+    -webkit-align-items: center;
+    align-items: center;
+    box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.18);
+    place-items: center;
+    position: absolute;
+    width: calc(90%);
+    background-color: #FFF;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.container {
+position: relative;
+padding-left: 35px;
+line-height: 25px;
+cursor: pointer;
+font-size: 18px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+margin: 18px 0;
+font-weight: 500;
+text-transform: uppercase;
+}
+.attraction-container{
+display: block;
+}
+.church-container{
+display: block;
+}
+.tour-container{
+display: block;
+}
+.cabaret-container{
+display: block;
+}
+.museum-container{
+display: block;
+}
+/* Hide the browser's default checkbox */
+.container input {
+position: absolute;
+/*display: none;*/
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 25px;
+width: 25px;
+border-radius: 25px;
+background-color: #eee;
+}
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+background-color: #89A4B9;
+}
+/* When the checkbox is checked, add a blue background */
+.attraction-container input:checked ~ .checkmark {
+background-color: #3bb300;
+}
+.museum-container input:checked ~ .checkmark {
+background-color: #e87232;
+}
+.church-container input:checked ~ .checkmark {
+background-color: #ff0000;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+left: 10px;
+top: 5px;
+width: 3px;
+height: 10px;
+border: solid white;
+border-width: 0 3px 3px 0;
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.grocery{
+    color: #3bb300;
+    font-size: 2.5em;
+}
+.medical{
+    color: #ff0000;
+    font-size: 2.5em;
+}
+.household{
+    color: #e87232;
+    font-size: 2.5em;
+}
+.current-location{
+    color: #4285F4;
+    font-size: 3.5em;
+}
+    @media (max-width: 768px) {
+    .container {
+    padding-left: 22px;
+    line-height: 18px;
+    font-size: 10px;
+    }
+    .checkmark{
+    height: 17px;
+    width: 17px;
+    }
+    .container .checkmark:after {
+    top: 3px;
+    left: 6px;
+    }
+    .filter-heading{
+    display: block;
+    }
+    .checkbox-wrapper {
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: unset;
+    margin: 10px 10px;
+    position: relative;
+    padding: 0px 10px;
+    max-height: 58px;
+    overflow: hidden;
+    place-items: flex-start;
+    grid-area: filters;
+    }
+    .filter {
+    display: block !important;
+    left: calc(100vw - 60px);
+    font-size: 1em;
+    background: transparent;
+    position: absolute;
+    top: 23px;
+    }
+    }

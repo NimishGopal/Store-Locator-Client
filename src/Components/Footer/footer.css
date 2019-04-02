@@ -1,0 +1,13 @@
+.footer{
+    display: grid;
+    place-items: center;
+    height: 150px;
+    color: #FFF;
+    font-size: 1.5em;
+    background-color: #000;
+    padding: 0 0 10px;
+}
+.footer > img {
+    width: 100px;
+    height: auto;
+}

@@ -1,0 +1,2332 @@
+[
+    {
+        "category": "medical",
+        "markers": [
+            {
+                "position": {
+                    "lat": 12.8620133,
+                    "lng": 77.669851
+                },
+                "title": "Marker 1",
+                "storeID": "M01"
+            },
+            {
+                "position": {
+                    "lat": 12.8630133,
+                    "lng": 77.668851
+                },
+                "title": "Marker 2",
+                "storeID": "M02"
+            },
+            {
+                "position": {
+                    "lat": 12.8620133,
+                    "lng": 77.657851
+                },
+                "title": "Marker 3",
+                "storeID": "M03"
+            },
+            {
+                "position": {
+                    "lat": 12.8670133,
+                    "lng": 77.662151
+                },
+                "title": "Marker 4",
+                "storeID": "M04"
+            },
+            {
+                "position": {
+                    "lat": 12.8653133,
+                    "lng": 77.663251
+                },
+                "title": "Marker 5",
+                "storeID": "M05"
+            }
+        ]
+    },
+    {
+        "category": "grocery",
+        "markers": [
+            {
+                "position": {
+                    "lat": 12.8630133,
+                    "lng": 77.665851
+                },
+                "title": "Marker 1",
+                "storeID": "G01",
+                "products": [{
+                    "id": 1,
+                    "rating": 4.6,
+                    "name": "Soya Chunks",
+                    "unit": 84,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40068193_1-bb-royal-soya-chunks.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 2,
+                    "rating": 4.4,
+                    "name": "Aashirwaad aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/126906_6-aashirvaad-atta-whole-wheat.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 3,
+                    "rating": 4.2,
+                    "name": "Maida",
+                    "unit": 78,
+                    "price": 113,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40044729_4-bb-royal-maida.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 4,
+                    "rating": 4.1,
+                    "name": "Fortune oil",
+                    "unit": 54,
+                    "price": 120,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/274145_5-fortune-sunflower-refined-oil-sun-lite.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 5,
+                    "rating": 4.5,
+                    "name": "Rajma",
+                    "unit": 67,
+                    "price": 50,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000476_7-bb-royal-rajma-kashmiri.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 6,
+                    "rating": 4.4,
+                    "name": "Moong Dal",
+                    "unit": 42,
+                    "price": 66,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000007_3-bb-popular-moong-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 7,
+                    "rating": 4.3,
+                    "name": "Chicken Masala",
+                    "unit": 43,
+                    "price": 90,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40128827_1-everest-masala-chicken.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 8,
+                    "rating": 4.1,
+                    "name": "Poha",
+                    "unit": 31,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000013_2-bb-royal-avalpoha-red.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 9,
+                    "rating": 4.0,
+                    "name": "Toor Dal",
+                    "unit": 83,
+                    "price": 70,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000412_8-bb-popular-toorarhar-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 10,
+                    "rating": 4.2,
+                    "name": "Haldi",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/100004165_2-everest-powder-turmeric.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 11,
+                    "rating": 4.4,
+                    "name": "Besan",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000475_7-bb-royal-besan-flour.jpg",
+                    "quantity": "250gm",
+                    "isAvailable": true
+                },
+                {
+                    "id": 12,
+                    "rating": 4.2,
+                    "name": "Chakki Fresh Aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40000095_5-nature-fresh-chakki-fresh-atta.jpg",
+                    "quantity": "10kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 13,
+                    "rating": 4.4,
+                    "name": "Peanuts",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000446_10-bb-royal-peanutsmungaphalishengdana-raw.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 14,
+                    "rating": 4.4,
+                    "name": "Rice",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000457_8-bb-royal-rice-raw-sona-masoori.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 15,
+                    "rating": 4.4,
+                    "name": "Nandhini Ghee",
+                    "unit": 53,
+                    "price": 450,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/213253_3-nandini-pure-cow-ghee.jpg",
+                    "quantity": "1Ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 16,
+                    "rating": 4.4,
+                    "name": "Sooji/Rava",
+                    "unit": 82,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000423_9-bb-royal-sooji-ordinary.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 17,
+                    "rating": 4.4,
+                    "name": "Tata Salt",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/241600_2-tata-salt-salt-iodized.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 18,
+                    "rating": 4.1,
+                    "name": "Patanjali Mustard Oil",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/30002397_3-patanjali-mustard-oil-fortified.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 19,
+                    "rating": 4.2,
+                    "name": "Sugar",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/30005417_2-bb-popular-sugar.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 20,
+                    "rating": 4.4,
+                    "name": "Jeera",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000486_7-bb-royal-cumin-jeera-whole.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 21,
+                    "rating": 4.6,
+                    "name": "Mustard Oil",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/276756_6-fortune-mustard-oil-kachi-ghani.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 22,
+                    "rating": 4.6,
+                    "name": "Mustard/Rai",
+                    "unit": 117,
+                    "price": 135,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/10000485_7-bb-royal-mustard-rai-small.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 23,
+                    "rating": 4.8,
+                    "name": "Channa - Kabuli",
+                    "unit": 117,
+                    "price": 67,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40003556_6-bb-popular-channa-kabuli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 24,
+                    "rating": 4.3,
+                    "name": "Raisins/Kishmish - Indian",
+                    "unit": 13,
+                    "price": 399,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40021404_2-bb-popular-raisinskishmish-indian.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 25,
+                    "rating": 4.6,
+                    "name": "Gold - Pro Healthy Lifestyle Edible Oil",
+                    "unit": 91,
+                    "price": 649,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/147493_11-saffola-gold-pro-healthy-lifestyle-edible-oil.jpg",
+                    "quantity": "5ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 26,
+                    "rating": 4.3,
+                    "name": "Green Moong Whole/Sabut",
+                    "unit": 91,
+                    "price": 116,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000437_6-bb-royal-green-moong-wholesabut.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 27,
+                    "rating": 4.3,
+                    "name": "Urad Dal - Split",
+                    "unit": 91,
+                    "price": 237,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000426_6-bb-royal-urad-dal-split.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 28,
+                    "rating": 4.1,
+                    "name": "Refined - Sunflower Oil",
+                    "unit": 54,
+                    "price": 89,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/274120_8-sunpure-refined-sunflower-oil.jpg",
+                    "quantity": "1ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 29,
+                    "rating": 4.5,
+                    "name": "Tamarind / Imli",
+                    "unit": 54,
+                    "price": 99,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000487_3-bb-royal-tamarind-imli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 30,
+                    "rating": 4.3,
+                    "name": "Organic - Brown Chana/Channa Brown",
+                    "unit": 54,
+                    "price": 199,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40135838_2-bb-royal-organic-brown-chanachanna-brown.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 31,
+                    "rating": 4.3,
+                    "name": "Grapes - Sonaka Seedless",
+                    "unit": 54,
+                    "price": 45,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 32,
+                    "rating": 4.2,
+                    "name": "Muskmelon - Striped",
+                    "unit": 54,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/40073761_6-fresho-muskmelon-striped.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 33,
+                    "rating": 4.3,
+                    "name": "Sprouts - Mixed Gram",
+                    "unit": 28,
+                    "price": 28,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 34,
+                    "rating": 4.7,
+                    "name": "Onion",
+                    "unit": 28,
+                    "price": 17,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/1201414_1-fresho-onion.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 35,
+                    "rating": 4.7,
+                    "name": "Potato",
+                    "unit": 28,
+                    "price": 23,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000159_25-fresho-potato.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 36,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 37,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 41,
+                    "rating": 4.4,
+                    "name": "Ladies Finger",
+                    "unit": 11,
+                    "price": 69,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 38,
+                    "rating": 4.5,
+                    "name": "Cauliflower",
+                    "unit": 11,
+                    "price": 39,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+                    "quantity": "1pc",
+                    "isAvailable": true
+                },
+                {
+                    "id": 39,
+                    "rating": 4.5,
+                    "name": "Green Peas",
+                    "unit": 11,
+                    "price": 65,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000284_11-fresho-green-peas.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 40,
+                    "rating": 4.5,
+                    "name": "Palak",
+                    "unit": 11,
+                    "price": 58,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000188_11-fresho-palak.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                }]
+            },
+            {
+                "position": {
+                    "lat": 12.8610133,
+                    "lng": 77.664851
+                },
+                "title": "Marker 2",
+                "storeID": "G02",
+                "products": [{
+                    "id": 41,
+                    "rating": 4.6,
+                    "name": "Soya Chunks",
+                    "unit": 84,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40068193_1-bb-royal-soya-chunks.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 42,
+                    "rating": 4.4,
+                    "name": "Aashirwaad aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/126906_6-aashirvaad-atta-whole-wheat.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 43,
+                    "rating": 4.2,
+                    "name": "Maida",
+                    "unit": 78,
+                    "price": 113,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40044729_4-bb-royal-maida.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 44,
+                    "rating": 4.1,
+                    "name": "Fortune oil",
+                    "unit": 54,
+                    "price": 120,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/274145_5-fortune-sunflower-refined-oil-sun-lite.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 45,
+                    "rating": 4.5,
+                    "name": "Rajma",
+                    "unit": 67,
+                    "price": 50,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000476_7-bb-royal-rajma-kashmiri.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 46,
+                    "rating": 4.4,
+                    "name": "Moong Dal",
+                    "unit": 42,
+                    "price": 66,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000007_3-bb-popular-moong-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 47,
+                    "rating": 4.3,
+                    "name": "Chicken Masala",
+                    "unit": 43,
+                    "price": 90,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40128827_1-everest-masala-chicken.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 48,
+                    "rating": 4.1,
+                    "name": "Poha",
+                    "unit": 31,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000013_2-bb-royal-avalpoha-red.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 49,
+                    "rating": 4.0,
+                    "name": "Toor Dal",
+                    "unit": 83,
+                    "price": 70,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000412_8-bb-popular-toorarhar-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 50,
+                    "rating": 4.2,
+                    "name": "Haldi",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/100004165_2-everest-powder-turmeric.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 51,
+                    "rating": 4.4,
+                    "name": "Besan",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000475_7-bb-royal-besan-flour.jpg",
+                    "quantity": "250gm",
+                    "isAvailable": true
+                },
+                {
+                    "id": 52,
+                    "rating": 4.2,
+                    "name": "Chakki Fresh Aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40000095_5-nature-fresh-chakki-fresh-atta.jpg",
+                    "quantity": "10kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 53,
+                    "rating": 4.4,
+                    "name": "Peanuts",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000446_10-bb-royal-peanutsmungaphalishengdana-raw.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 54,
+                    "rating": 4.4,
+                    "name": "Rice",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000457_8-bb-royal-rice-raw-sona-masoori.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 55,
+                    "rating": 4.4,
+                    "name": "Nandhini Ghee",
+                    "unit": 53,
+                    "price": 450,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/213253_3-nandini-pure-cow-ghee.jpg",
+                    "quantity": "1Ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 56,
+                    "rating": 4.4,
+                    "name": "Sooji/Rava",
+                    "unit": 82,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000423_9-bb-royal-sooji-ordinary.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 57,
+                    "rating": 4.4,
+                    "name": "Tata Salt",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/241600_2-tata-salt-salt-iodized.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 58,
+                    "rating": 4.1,
+                    "name": "Patanjali Mustard Oil",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/30002397_3-patanjali-mustard-oil-fortified.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 59,
+                    "rating": 4.2,
+                    "name": "Sugar",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/30005417_2-bb-popular-sugar.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 60,
+                    "rating": 4.4,
+                    "name": "Jeera",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000486_7-bb-royal-cumin-jeera-whole.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 61,
+                    "rating": 4.6,
+                    "name": "Mustard Oil",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/276756_6-fortune-mustard-oil-kachi-ghani.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 62,
+                    "rating": 4.6,
+                    "name": "Mustard/Rai",
+                    "unit": 117,
+                    "price": 135,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/10000485_7-bb-royal-mustard-rai-small.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 63,
+                    "rating": 4.8,
+                    "name": "Channa - Kabuli",
+                    "unit": 117,
+                    "price": 67,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40003556_6-bb-popular-channa-kabuli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 64,
+                    "rating": 4.3,
+                    "name": "Raisins/Kishmish - Indian",
+                    "unit": 13,
+                    "price": 399,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40021404_2-bb-popular-raisinskishmish-indian.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 65,
+                    "rating": 4.6,
+                    "name": "Gold - Pro Healthy Lifestyle Edible Oil",
+                    "unit": 91,
+                    "price": 649,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/147493_11-saffola-gold-pro-healthy-lifestyle-edible-oil.jpg",
+                    "quantity": "5ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 66,
+                    "rating": 4.3,
+                    "name": "Green Moong Whole/Sabut",
+                    "unit": 91,
+                    "price": 116,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000437_6-bb-royal-green-moong-wholesabut.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 67,
+                    "rating": 4.3,
+                    "name": "Urad Dal - Split",
+                    "unit": 91,
+                    "price": 237,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000426_6-bb-royal-urad-dal-split.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 68,
+                    "rating": 4.1,
+                    "name": "Refined - Sunflower Oil",
+                    "unit": 54,
+                    "price": 89,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/274120_8-sunpure-refined-sunflower-oil.jpg",
+                    "quantity": "1ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 69,
+                    "rating": 4.5,
+                    "name": "Tamarind / Imli",
+                    "unit": 54,
+                    "price": 99,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000487_3-bb-royal-tamarind-imli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 70,
+                    "rating": 4.3,
+                    "name": "Organic - Brown Chana/Channa Brown",
+                    "unit": 54,
+                    "price": 199,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40135838_2-bb-royal-organic-brown-chanachanna-brown.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 71,
+                    "rating": 4.3,
+                    "name": "Grapes - Sonaka Seedless",
+                    "unit": 54,
+                    "price": 45,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 72,
+                    "rating": 4.2,
+                    "name": "Muskmelon - Striped",
+                    "unit": 54,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/40073761_6-fresho-muskmelon-striped.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 73,
+                    "rating": 4.3,
+                    "name": "Sprouts - Mixed Gram",
+                    "unit": 28,
+                    "price": 28,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 74,
+                    "rating": 4.7,
+                    "name": "Onion",
+                    "unit": 28,
+                    "price": 17,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/1201414_1-fresho-onion.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 75,
+                    "rating": 4.7,
+                    "name": "Potato",
+                    "unit": 28,
+                    "price": 23,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000159_25-fresho-potato.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 76,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 78,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 79,
+                    "rating": 4.4,
+                    "name": "Ladies Finger",
+                    "unit": 11,
+                    "price": 69,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 77,
+                    "rating": 4.5,
+                    "name": "Cauliflower",
+                    "unit": 11,
+                    "price": 39,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+                    "quantity": "1pc",
+                    "isAvailable": true
+                },
+                {
+                    "id": 80,
+                    "rating": 4.5,
+                    "name": "Green Peas",
+                    "unit": 11,
+                    "price": 65,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000284_11-fresho-green-peas.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                }]
+            },
+            {
+                "position": {
+                    "lat": 12.8590133,
+                    "lng": 77.665851
+                },
+                "title": "Marker 3",
+                "storeID": "G03",
+                "products": [{
+                    "id": 81,
+                    "rating": 4.6,
+                    "name": "Soya Chunks",
+                    "unit": 84,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40068193_1-bb-royal-soya-chunks.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 82,
+                    "rating": 4.4,
+                    "name": "Aashirwaad aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/126906_6-aashirvaad-atta-whole-wheat.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 83,
+                    "rating": 4.2,
+                    "name": "Maida",
+                    "unit": 78,
+                    "price": 113,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40044729_4-bb-royal-maida.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 84,
+                    "rating": 4.1,
+                    "name": "Fortune oil",
+                    "unit": 54,
+                    "price": 120,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/274145_5-fortune-sunflower-refined-oil-sun-lite.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 85,
+                    "rating": 4.5,
+                    "name": "Rajma",
+                    "unit": 67,
+                    "price": 50,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000476_7-bb-royal-rajma-kashmiri.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 86,
+                    "rating": 4.4,
+                    "name": "Moong Dal",
+                    "unit": 42,
+                    "price": 66,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000007_3-bb-popular-moong-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 87,
+                    "rating": 4.3,
+                    "name": "Chicken Masala",
+                    "unit": 43,
+                    "price": 90,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40128827_1-everest-masala-chicken.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 88,
+                    "rating": 4.1,
+                    "name": "Poha",
+                    "unit": 31,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000013_2-bb-royal-avalpoha-red.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 89,
+                    "rating": 4.0,
+                    "name": "Toor Dal",
+                    "unit": 83,
+                    "price": 70,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000412_8-bb-popular-toorarhar-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 90,
+                    "rating": 4.2,
+                    "name": "Haldi",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/100004165_2-everest-powder-turmeric.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 91,
+                    "rating": 4.4,
+                    "name": "Besan",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000475_7-bb-royal-besan-flour.jpg",
+                    "quantity": "250gm",
+                    "isAvailable": true
+                },
+                {
+                    "id": 92,
+                    "rating": 4.2,
+                    "name": "Chakki Fresh Aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40000095_5-nature-fresh-chakki-fresh-atta.jpg",
+                    "quantity": "10kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 93,
+                    "rating": 4.4,
+                    "name": "Peanuts",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000446_10-bb-royal-peanutsmungaphalishengdana-raw.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 94,
+                    "rating": 4.4,
+                    "name": "Rice",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000457_8-bb-royal-rice-raw-sona-masoori.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 95,
+                    "rating": 4.4,
+                    "name": "Nandhini Ghee",
+                    "unit": 53,
+                    "price": 450,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/213253_3-nandini-pure-cow-ghee.jpg",
+                    "quantity": "1Ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 96,
+                    "rating": 4.4,
+                    "name": "Sooji/Rava",
+                    "unit": 82,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000423_9-bb-royal-sooji-ordinary.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 97,
+                    "rating": 4.4,
+                    "name": "Tata Salt",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/241600_2-tata-salt-salt-iodized.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 98,
+                    "rating": 4.1,
+                    "name": "Patanjali Mustard Oil",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/30002397_3-patanjali-mustard-oil-fortified.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 99,
+                    "rating": 4.2,
+                    "name": "Sugar",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/30005417_2-bb-popular-sugar.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 100,
+                    "rating": 4.4,
+                    "name": "Jeera",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000486_7-bb-royal-cumin-jeera-whole.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 101,
+                    "rating": 4.6,
+                    "name": "Mustard Oil",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/276756_6-fortune-mustard-oil-kachi-ghani.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 102,
+                    "rating": 4.6,
+                    "name": "Mustard/Rai",
+                    "unit": 117,
+                    "price": 135,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/10000485_7-bb-royal-mustard-rai-small.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 103,
+                    "rating": 4.8,
+                    "name": "Channa - Kabuli",
+                    "unit": 117,
+                    "price": 67,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40003556_6-bb-popular-channa-kabuli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 104,
+                    "rating": 4.3,
+                    "name": "Raisins/Kishmish - Indian",
+                    "unit": 13,
+                    "price": 399,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40021404_2-bb-popular-raisinskishmish-indian.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 105,
+                    "rating": 4.6,
+                    "name": "Gold - Pro Healthy Lifestyle Edible Oil",
+                    "unit": 91,
+                    "price": 649,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/147493_11-saffola-gold-pro-healthy-lifestyle-edible-oil.jpg",
+                    "quantity": "5ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 106,
+                    "rating": 4.3,
+                    "name": "Green Moong Whole/Sabut",
+                    "unit": 91,
+                    "price": 116,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000437_6-bb-royal-green-moong-wholesabut.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 107,
+                    "rating": 4.3,
+                    "name": "Urad Dal - Split",
+                    "unit": 91,
+                    "price": 237,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000426_6-bb-royal-urad-dal-split.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 108,
+                    "rating": 4.1,
+                    "name": "Refined - Sunflower Oil",
+                    "unit": 54,
+                    "price": 89,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/274120_8-sunpure-refined-sunflower-oil.jpg",
+                    "quantity": "1ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 109,
+                    "rating": 4.5,
+                    "name": "Tamarind / Imli",
+                    "unit": 54,
+                    "price": 99,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000487_3-bb-royal-tamarind-imli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 110,
+                    "rating": 4.3,
+                    "name": "Organic - Brown Chana/Channa Brown",
+                    "unit": 54,
+                    "price": 199,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40135838_2-bb-royal-organic-brown-chanachanna-brown.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 111,
+                    "rating": 4.3,
+                    "name": "Grapes - Sonaka Seedless",
+                    "unit": 54,
+                    "price": 45,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 112,
+                    "rating": 4.2,
+                    "name": "Muskmelon - Striped",
+                    "unit": 54,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/40073761_6-fresho-muskmelon-striped.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 113,
+                    "rating": 4.3,
+                    "name": "Sprouts - Mixed Gram",
+                    "unit": 28,
+                    "price": 28,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 114,
+                    "rating": 4.7,
+                    "name": "Onion",
+                    "unit": 28,
+                    "price": 17,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/1201414_1-fresho-onion.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 115,
+                    "rating": 4.7,
+                    "name": "Potato",
+                    "unit": 28,
+                    "price": 23,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000159_25-fresho-potato.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 116,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 117,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 118,
+                    "rating": 4.5,
+                    "name": "Cauliflower",
+                    "unit": 11,
+                    "price": 39,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+                    "quantity": "1pc",
+                    "isAvailable": true
+                },
+                {
+                    "id": 119,
+                    "rating": 4.5,
+                    "name": "Green Peas",
+                    "unit": 11,
+                    "price": 65,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000284_11-fresho-green-peas.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 120,
+                    "rating": 4.5,
+                    "name": "Palak",
+                    "unit": 11,
+                    "price": 58,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000188_11-fresho-palak.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                }]
+            },
+            {
+                "position": {
+                    "lat": 12.8620133,
+                    "lng": 77.660851
+                },
+                "title": "Marker 4",
+                "storeID": "G04",
+                "products": [{
+                    "id": 121,
+                    "rating": 4.6,
+                    "name": "Soya Chunks",
+                    "unit": 84,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40068193_1-bb-royal-soya-chunks.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 122,
+                    "rating": 4.4,
+                    "name": "Aashirwaad aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/126906_6-aashirvaad-atta-whole-wheat.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 123,
+                    "rating": 4.2,
+                    "name": "Maida",
+                    "unit": 78,
+                    "price": 113,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40044729_4-bb-royal-maida.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 124,
+                    "rating": 4.1,
+                    "name": "Fortune oil",
+                    "unit": 54,
+                    "price": 120,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/274145_5-fortune-sunflower-refined-oil-sun-lite.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 125,
+                    "rating": 4.5,
+                    "name": "Rajma",
+                    "unit": 67,
+                    "price": 50,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000476_7-bb-royal-rajma-kashmiri.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 126,
+                    "rating": 4.4,
+                    "name": "Moong Dal",
+                    "unit": 42,
+                    "price": 66,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000007_3-bb-popular-moong-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 127,
+                    "rating": 4.3,
+                    "name": "Chicken Masala",
+                    "unit": 43,
+                    "price": 90,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40128827_1-everest-masala-chicken.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 128,
+                    "rating": 4.1,
+                    "name": "Poha",
+                    "unit": 31,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000013_2-bb-royal-avalpoha-red.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 129,
+                    "rating": 4.0,
+                    "name": "Toor Dal",
+                    "unit": 83,
+                    "price": 70,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000412_8-bb-popular-toorarhar-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 130,
+                    "rating": 4.2,
+                    "name": "Haldi",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/100004165_2-everest-powder-turmeric.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 131,
+                    "rating": 4.4,
+                    "name": "Besan",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000475_7-bb-royal-besan-flour.jpg",
+                    "quantity": "250gm",
+                    "isAvailable": true
+                },
+                {
+                    "id": 132,
+                    "rating": 4.2,
+                    "name": "Chakki Fresh Aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40000095_5-nature-fresh-chakki-fresh-atta.jpg",
+                    "quantity": "10kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 133,
+                    "rating": 4.4,
+                    "name": "Peanuts",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000446_10-bb-royal-peanutsmungaphalishengdana-raw.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 134,
+                    "rating": 4.4,
+                    "name": "Rice",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000457_8-bb-royal-rice-raw-sona-masoori.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 135,
+                    "rating": 4.4,
+                    "name": "Nandhini Ghee",
+                    "unit": 53,
+                    "price": 450,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/213253_3-nandini-pure-cow-ghee.jpg",
+                    "quantity": "1Ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 136,
+                    "rating": 4.4,
+                    "name": "Sooji/Rava",
+                    "unit": 82,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000423_9-bb-royal-sooji-ordinary.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 137,
+                    "rating": 4.4,
+                    "name": "Tata Salt",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/241600_2-tata-salt-salt-iodized.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 138,
+                    "rating": 4.1,
+                    "name": "Patanjali Mustard Oil",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/30002397_3-patanjali-mustard-oil-fortified.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 139,
+                    "rating": 4.2,
+                    "name": "Sugar",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/30005417_2-bb-popular-sugar.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 140,
+                    "rating": 4.4,
+                    "name": "Jeera",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000486_7-bb-royal-cumin-jeera-whole.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 141,
+                    "rating": 4.6,
+                    "name": "Mustard Oil",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/276756_6-fortune-mustard-oil-kachi-ghani.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 142,
+                    "rating": 4.6,
+                    "name": "Mustard/Rai",
+                    "unit": 117,
+                    "price": 135,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/10000485_7-bb-royal-mustard-rai-small.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 143,
+                    "rating": 4.8,
+                    "name": "Channa - Kabuli",
+                    "unit": 117,
+                    "price": 67,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40003556_6-bb-popular-channa-kabuli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 144,
+                    "rating": 4.3,
+                    "name": "Raisins/Kishmish - Indian",
+                    "unit": 13,
+                    "price": 399,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40021404_2-bb-popular-raisinskishmish-indian.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 145,
+                    "rating": 4.6,
+                    "name": "Gold - Pro Healthy Lifestyle Edible Oil",
+                    "unit": 91,
+                    "price": 649,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/147493_11-saffola-gold-pro-healthy-lifestyle-edible-oil.jpg",
+                    "quantity": "5ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 146,
+                    "rating": 4.3,
+                    "name": "Green Moong Whole/Sabut",
+                    "unit": 91,
+                    "price": 116,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000437_6-bb-royal-green-moong-wholesabut.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 147,
+                    "rating": 4.3,
+                    "name": "Urad Dal - Split",
+                    "unit": 91,
+                    "price": 237,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000426_6-bb-royal-urad-dal-split.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 148,
+                    "rating": 4.1,
+                    "name": "Refined - Sunflower Oil",
+                    "unit": 54,
+                    "price": 89,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/274120_8-sunpure-refined-sunflower-oil.jpg",
+                    "quantity": "1ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 149,
+                    "rating": 4.5,
+                    "name": "Tamarind / Imli",
+                    "unit": 54,
+                    "price": 99,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000487_3-bb-royal-tamarind-imli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 150,
+                    "rating": 4.3,
+                    "name": "Organic - Brown Chana/Channa Brown",
+                    "unit": 54,
+                    "price": 199,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40135838_2-bb-royal-organic-brown-chanachanna-brown.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 151,
+                    "rating": 4.3,
+                    "name": "Grapes - Sonaka Seedless",
+                    "unit": 54,
+                    "price": 45,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 152,
+                    "rating": 4.2,
+                    "name": "Muskmelon - Striped",
+                    "unit": 54,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/40073761_6-fresho-muskmelon-striped.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 153,
+                    "rating": 4.3,
+                    "name": "Sprouts - Mixed Gram",
+                    "unit": 28,
+                    "price": 28,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 154,
+                    "rating": 4.7,
+                    "name": "Onion",
+                    "unit": 28,
+                    "price": 17,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/1201414_1-fresho-onion.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 155,
+                    "rating": 4.7,
+                    "name": "Potato",
+                    "unit": 28,
+                    "price": 23,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000159_25-fresho-potato.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 156,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 157,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 158,
+                    "rating": 4.5,
+                    "name": "Cauliflower",
+                    "unit": 11,
+                    "price": 39,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+                    "quantity": "1pc",
+                    "isAvailable": true
+                },
+                {
+                    "id": 159,
+                    "rating": 4.5,
+                    "name": "Green Peas",
+                    "unit": 11,
+                    "price": 65,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000284_11-fresho-green-peas.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 160,
+                    "rating": 4.5,
+                    "name": "Palak",
+                    "unit": 11,
+                    "price": 58,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000188_11-fresho-palak.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                }]
+            },
+            {
+                "position": {
+                    "lat": 12.8640133,
+                    "lng": 77.669851
+                },
+                "title": "Marker 5",
+                "storeID": "G05",
+                "products": [{
+                    "id": 161,
+                    "rating": 4.6,
+                    "name": "Soya Chunks",
+                    "unit": 84,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40068193_1-bb-royal-soya-chunks.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 162,
+                    "rating": 4.4,
+                    "name": "Aashirwaad aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/126906_6-aashirvaad-atta-whole-wheat.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 163,
+                    "rating": 4.2,
+                    "name": "Maida",
+                    "unit": 78,
+                    "price": 113,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40044729_4-bb-royal-maida.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 164,
+                    "rating": 4.1,
+                    "name": "Fortune oil",
+                    "unit": 54,
+                    "price": 120,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/274145_5-fortune-sunflower-refined-oil-sun-lite.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 165,
+                    "rating": 4.5,
+                    "name": "Rajma",
+                    "unit": 67,
+                    "price": 50,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000476_7-bb-royal-rajma-kashmiri.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 166,
+                    "rating": 4.4,
+                    "name": "Moong Dal",
+                    "unit": 42,
+                    "price": 66,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000007_3-bb-popular-moong-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 167,
+                    "rating": 4.3,
+                    "name": "Chicken Masala",
+                    "unit": 43,
+                    "price": 90,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40128827_1-everest-masala-chicken.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 168,
+                    "rating": 4.1,
+                    "name": "Poha",
+                    "unit": 31,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/60000013_2-bb-royal-avalpoha-red.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 169,
+                    "rating": 4.0,
+                    "name": "Toor Dal",
+                    "unit": 83,
+                    "price": 70,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000412_8-bb-popular-toorarhar-dal.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 170,
+                    "rating": 4.2,
+                    "name": "Haldi",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/100004165_2-everest-powder-turmeric.jpg",
+                    "quantity": "100g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 171,
+                    "rating": 4.4,
+                    "name": "Besan",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000475_7-bb-royal-besan-flour.jpg",
+                    "quantity": "250gm",
+                    "isAvailable": true
+                },
+                {
+                    "id": 172,
+                    "rating": 4.2,
+                    "name": "Chakki Fresh Aata",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/40000095_5-nature-fresh-chakki-fresh-atta.jpg",
+                    "quantity": "10kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 173,
+                    "rating": 4.4,
+                    "name": "Peanuts",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000446_10-bb-royal-peanutsmungaphalishengdana-raw.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 174,
+                    "rating": 4.4,
+                    "name": "Rice",
+                    "unit": 31,
+                    "price": 20,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/10000457_8-bb-royal-rice-raw-sona-masoori.jpg",
+                    "quantity": "5kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 175,
+                    "rating": 4.4,
+                    "name": "Nandhini Ghee",
+                    "unit": 53,
+                    "price": 450,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/213253_3-nandini-pure-cow-ghee.jpg",
+                    "quantity": "1Ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 176,
+                    "rating": 4.4,
+                    "name": "Sooji/Rava",
+                    "unit": 82,
+                    "price": 35,
+                    "discount": 5,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000423_9-bb-royal-sooji-ordinary.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 177,
+                    "rating": 4.4,
+                    "name": "Tata Salt",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/241600_2-tata-salt-salt-iodized.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 178,
+                    "rating": 4.1,
+                    "name": "Patanjali Mustard Oil",
+                    "unit": 117,
+                    "price": 17,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/ml/30002397_3-patanjali-mustard-oil-fortified.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 179,
+                    "rating": 4.2,
+                    "name": "Sugar",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/30005417_2-bb-popular-sugar.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 180,
+                    "rating": 4.4,
+                    "name": "Jeera",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000486_7-bb-royal-cumin-jeera-whole.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 181,
+                    "rating": 4.6,
+                    "name": "Mustard Oil",
+                    "unit": 117,
+                    "price": 42,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/276756_6-fortune-mustard-oil-kachi-ghani.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 182,
+                    "rating": 4.6,
+                    "name": "Mustard/Rai",
+                    "unit": 117,
+                    "price": 135,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/10000485_7-bb-royal-mustard-rai-small.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 183,
+                    "rating": 4.8,
+                    "name": "Channa - Kabuli",
+                    "unit": 117,
+                    "price": 67,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40003556_6-bb-popular-channa-kabuli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 184,
+                    "rating": 4.3,
+                    "name": "Raisins/Kishmish - Indian",
+                    "unit": 13,
+                    "price": 399,
+                    "discount": 0,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40021404_2-bb-popular-raisinskishmish-indian.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 185,
+                    "rating": 4.6,
+                    "name": "Gold - Pro Healthy Lifestyle Edible Oil",
+                    "unit": 91,
+                    "price": 649,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/147493_11-saffola-gold-pro-healthy-lifestyle-edible-oil.jpg",
+                    "quantity": "5ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 186,
+                    "rating": 4.3,
+                    "name": "Green Moong Whole/Sabut",
+                    "unit": 91,
+                    "price": 116,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000437_6-bb-royal-green-moong-wholesabut.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 187,
+                    "rating": 4.3,
+                    "name": "Urad Dal - Split",
+                    "unit": 91,
+                    "price": 237,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000426_6-bb-royal-urad-dal-split.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 188,
+                    "rating": 4.1,
+                    "name": "Refined - Sunflower Oil",
+                    "unit": 54,
+                    "price": 89,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/274120_8-sunpure-refined-sunflower-oil.jpg",
+                    "quantity": "1ltr",
+                    "isAvailable": true
+                },
+                {
+                    "id": 189,
+                    "rating": 4.5,
+                    "name": "Tamarind / Imli",
+                    "unit": 54,
+                    "price": 99,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/20000487_3-bb-royal-tamarind-imli.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 190,
+                    "rating": 4.3,
+                    "name": "Organic - Brown Chana/Channa Brown",
+                    "unit": 54,
+                    "price": 199,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/mm/40135838_2-bb-royal-organic-brown-chanachanna-brown.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 191,
+                    "rating": 4.3,
+                    "name": "Grapes - Sonaka Seedless",
+                    "unit": 54,
+                    "price": 45,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 192,
+                    "rating": 4.2,
+                    "name": "Muskmelon - Striped",
+                    "unit": 54,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/40073761_6-fresho-muskmelon-striped.jpg",
+                    "quantity": "2kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 193,
+                    "rating": 4.3,
+                    "name": "Sprouts - Mixed Gram",
+                    "unit": 28,
+                    "price": 28,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000288_19-fresho-grapes-sonaka-seedless.jpg",
+                    "quantity": "200g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 194,
+                    "rating": 4.7,
+                    "name": "Onion",
+                    "unit": 28,
+                    "price": 17,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/1201414_1-fresho-onion.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 195,
+                    "rating": 4.7,
+                    "name": "Potato",
+                    "unit": 28,
+                    "price": 23,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000159_25-fresho-potato.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 196,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 197,
+                    "rating": 4.4,
+                    "name": "Tomato - Hybrid",
+                    "unit": 11,
+                    "price": 32,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+                    "quantity": "1kg",
+                    "isAvailable": true
+                },
+                {
+                    "id": 198,
+                    "rating": 4.5,
+                    "name": "Cauliflower",
+                    "unit": 11,
+                    "price": 39,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+                    "quantity": "1pc",
+                    "isAvailable": true
+                },
+                {
+                    "id": 199,
+                    "rating": 4.5,
+                    "name": "Green Peas",
+                    "unit": 11,
+                    "price": 65,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000284_11-fresho-green-peas.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                },
+                {
+                    "id": 200,
+                    "rating": 4.5,
+                    "name": "Palak",
+                    "unit": 11,
+                    "price": 58,
+                    "discount": 13,
+                    "image": "https://www.bigbasket.com/media/uploads/p/s/10000188_11-fresho-palak.jpg",
+                    "quantity": "500g",
+                    "isAvailable": true
+                }]
+            }
+        ]
+    },
+    {
+        "category": "household",
+        "markers": [
+            {
+                "position": {
+                    "lat": 12.8660133,
+                    "lng": 77.663851
+                },
+                "title": "Marker 1",
+                "storeID": "H01"
+            },
+            {
+                "position": {
+                    "lat": 12.8650133,
+                    "lng": 77.665851
+                },
+                "title": "Marker 2",
+                "storeID": "H02"
+            },
+            {
+                "position": {
+                    "lat": 12.8670133,
+                    "lng": 77.662851
+                },
+                "title": "Marker 3",
+                "storeID": "H03"
+            }
+        ]
+    }
+]

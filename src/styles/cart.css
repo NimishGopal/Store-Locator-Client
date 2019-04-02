@@ -1,0 +1,107 @@
+.cart{
+    width: 55px;
+    position: absolute;
+    right: 100px;
+    padding: 5px 0 0;
+}
+.cart-icon{
+    font-size: 2em;
+    line-height: 60px;
+    color: #FFF;
+}
+.cart > p {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #76ff73;
+    display: grid;
+    place-items: center;
+    color: #FFF;
+    font-weight: 700;
+    left: -10px;
+    top: 5px;
+}
+.empty-cart-text{
+    text-align: center;
+    font-size: 1em;
+}
+.cart__header{
+    width: 100%;
+    font-size: 1.125em;
+    text-align: center;
+    padding: 1em 0;
+    background-color: #545454;
+    color: #FFF;
+    font-weight: 500;
+    margin: 0 0 40px;
+}
+.cart__close{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 1.5em;
+    color: #FFF;
+}
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    animation: all ease-in-out 0.8s;
+}
+.cart-items {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: #ebebeb;
+    animation: all ease-in-out 0.8s;
+    overflow: scroll;
+}
+.cart__item{
+    display: grid;
+    grid-template-areas: "cartItemImage cartItemName" "priceWrapper priceWrapper";
+    grid-template-columns: 15% auto;
+    grid-template-rows: 50px auto;
+    background-color: #FFF;
+    grid-gap: 10px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+} 
+.cart__item > img {
+    grid-area: cartItemImage;
+    object-fit: contain;
+}
+.cart__item > h2 {
+    grid-area: cartItemName;
+    text-align: right;
+}
+.cart__item > .price-wrapper {
+    grid-area: priceWrapper;
+    padding: 0;
+}
+.checkout-cta{
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+    left: 0;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 1em;
+    background-color: rgb(133, 248, 1);
+    font-size: 1.125em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFF;
+    border-radius: 4px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+}
