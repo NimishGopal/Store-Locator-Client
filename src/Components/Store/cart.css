@@ -1,8 +1,9 @@
 .cart{
     width: 55px;
-    position: absolute;
+    position: fixed;
     right: 100px;
-    padding: 5px 0 0;
+    top: 0;
+    z-index: 2;
 }
 .cart-icon{
     font-size: 2em;
@@ -86,7 +87,7 @@
     grid-area: priceWrapper;
     padding: 0;
 }
-.checkout-cta{
+.checkout-cta-active{
     text-align: center;
     position: absolute;
     bottom: 1em;
@@ -95,7 +96,7 @@
     width: calc(100% - 60px);
     margin: 0 auto;
     padding: 1em;
-    background-color: rgb(133, 248, 1);
+    background-color: #76b62c;
     font-size: 1.125em;
     font-weight: 600;
     text-transform: uppercase;
@@ -104,4 +105,23 @@
     display: grid;
     grid-auto-flow: column;
     justify-content: space-between;
+}
+.checkout-cta-disabled{
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+    left: 0;
+    width: calc(100% - 60px);
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #a6a0a0;
+    font-size: 1.125em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFF;
+    border-radius: 4px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
 }

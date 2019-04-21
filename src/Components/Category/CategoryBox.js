@@ -5,7 +5,7 @@ const CategoryBox = (props) => {
     return (
         <Link to={`/${props.textValue}`}>
             <div className={props.styleName}>
-                <img src={props.imgSrc} />
+                <img alt="category" src={props.imgSrc} />
                 <div>
                     {props.textValue}
                 </div>

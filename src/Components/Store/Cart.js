@@ -1,6 +1,6 @@
 import React from 'react';
 import CartItems from './CartItems';
-import './../../styles/cart.css';
+import './cart.css';
 
 const Cart = (props) => {
        let cartLength = props.getStoreState().cart.length;
@@ -11,9 +11,11 @@ const Cart = (props) => {
                     <p>{cartLength}</p>
                 }
                 <i onClick={props.openCart} className="fas fa-cart-plus cart-icon"></i>
-                {(props.getStoreState().shouldOpenCart) && <CartItems 
+                {(props.getStoreState().shouldOpenCart) && 
+                <CartItems 
                 cartItems={props.getStoreState().cart}
                 closeCart={() => props.closeCart()}
+                path={props.path}
                 />}
             </div>
         );

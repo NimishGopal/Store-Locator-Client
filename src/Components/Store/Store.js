@@ -1,45 +1,86 @@
 import React from 'react';
-import Data from './../../DummyData/marker.json';
-import './../../styles/product.css';
+import './product.css';
 import Product from './Product';
-import Header from './../Header/Header';
-import Footer from '../Footer/Footer.js';
+import Cart from './Cart';
 
 
 export default class Store extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            storeID: null,
+            category: null,
             productList: [],
             cart: [],
             shouldOpenCart: false
         }
     }
-    
-    products = Data[1].markers[0].products;
-    componentDidMount = () => {
-        let productList = [];
-        this.products.map((product) =>
-            productList.push(
-                {
-                    "src": product.image,
-                    "name": product.name,
-                    "price": product.price,
-                    "prodID": product.id,
-                    "quantity": 0
-                })
-        );
-        this.setState({ productList: productList });
+    // NOT A GREAT SOLUTION BUT DO THIS FOR NOW
+    refactorProductList = (cart, productList) => {
+        return new Promise((resolve) => {
+            cart.map((cartVal) => {
+                return productList.forEach((productVal, key) => {
+                    if(productVal.prodID === cartVal.id)
+                    productList[key] = cartVal;
+                });
+            });
+            resolve(productList); 
+        })  
     }
-
+    componentDidMount = () => {
+        // localStorage.clear('cart');
+        let pathname = this.props.location.pathname;
+        let cart = JSON.parse(localStorage.getItem('cart'));
+        let storeID = pathname.split('/')[2];
+        let currentStore = localStorage.getItem('currentStore');
+        let category = pathname.split('/')[1];
+        if (cart === null) {
+            this.setState({ cart: [] })
+        }
+        else {
+            this.setState({ cart: cart })
+        }
+        if(currentStore === null){
+            localStorage.setItem('currentStore', storeID);
+        }
+        else{
+            if(currentStore !== storeID){
+                localStorage.clear('cart');
+                this.setState({storeID: storeID})
+            }
+        }
+        this.setState({ storeID: storeID, category: category }, () => {
+            fetch(`http://localhost:5000/${this.state.category}/${this.state.storeID}`)
+                .then((response) => {
+                    let productList = [];
+                    response.clone().json().then((val) => {
+                        val.map((product) => 
+                            productList.push(
+                                {
+                                    "src": product.image,
+                                    "name": product.name,
+                                    "price": product.price,
+                                    "prodID": product._id,
+                                    "quantity": 0
+                                })
+                        );
+                        // TODO: Come back here and find a better solution
+                        if(this.state.cart.length !== 0)
+                         this.refactorProductList(this.state.cart, productList).then((res) => this.setState({ productList: res }))
+                        else
+                        this.setState({ productList: productList })
+                    });
+                });
+        });
+    }
     getStoreState = () => this.state;
 
     openCart = () => {
-        this.setState({shouldOpenCart: true});
+        this.setState({ shouldOpenCart: true });
     }
 
     closeCart = () => {
-        this.setState({shouldOpenCart: false});
+        this.setState({ shouldOpenCart: false });
     }
 
     updateCart = (name, id, quantity, price, imgSrc) => {
@@ -51,7 +92,7 @@ export default class Store extends React.Component {
                 if (item.id === id) {
                     item.quantity = quantity;
                     add = false;
-                    if (item.quantity == 0) {
+                    if (item.quantity === 0) {
                         cart.splice(key, 1)
                     }
                 }
@@ -65,7 +106,9 @@ export default class Store extends React.Component {
             // FIRST PRODUCT
             cart.push({ "name": name, "id": id, "quantity": quantity, "price": price, "src": imgSrc });
         }
-        this.setState({ cart });
+        this.setState({ cart }, () =>
+            localStorage.setItem('cart', JSON.stringify(this.state.cart))
+        );
     }
 
     addItemToCart = (key) => {
@@ -87,11 +130,11 @@ export default class Store extends React.Component {
     render() {
         return (
             <div>
-                <Header
-                cart={true}
-                getStoreState={() => this.getStoreState()}
-                openCart={() => this.openCart()}
-                closeCart={() => this.closeCart()}
+                <Cart
+                    getStoreState={() => this.getStoreState()}
+                    openCart={() => this.openCart()}
+                    closeCart={() => this.closeCart()}
+                    path={this.props.location.pathname}
                 />
                 <div className="product-wrapper">
                     {
@@ -102,7 +145,7 @@ export default class Store extends React.Component {
                                 name={product.name}
                                 price={product.price}
                                 prodID={product.prodID}
-                                count={product.quantity}
+                                quantity={product.quantity}
                                 key={key}
                                 addItemToCart={() => { this.addItemToCart(key) }}
                                 removeItemFromCart={() => { this.removeItemFromCart(key) }}
@@ -110,7 +153,6 @@ export default class Store extends React.Component {
                         )
                     }
                 </div>
-                <Footer />
             </div>
         );
     }

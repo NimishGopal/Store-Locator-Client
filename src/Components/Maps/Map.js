@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
-import './../../styles/mapPage.css';
+import {Link} from 'react-router-dom';
+import './mapPage.css';
 
 
 const Marker = (props) => (
-    <div onClick={props.clickEvent} className={`${props.markerStyleClass}`}>
-        {props.icon}
-    </div>
+    <Link to={`/${props.category}/${props.storeID}`}>
+        <div className={`${props.markerStyleClass}`}>
+            {props.icon}
+        </div>
+    </Link>
 );
 const initialState = {
     "category": null, /*This will come from last page */
@@ -24,7 +27,7 @@ export default class Map extends Component {
         this.state = initialState;
     };
     static defaultProps = {
-        zoom: 16,
+        zoom: 15,
         center: {
             lat: 12.8640133,
             lng: 77.662851
@@ -33,14 +36,13 @@ export default class Map extends Component {
     extractMarkerData = (cat) => {
         return new Promise((resolve, reject) => {
             fetch(`http://localhost:5000/${cat}`)
-            .then(response => resolve(response.json()));
+                .then(response => resolve(response.json()));
         });
     }
     renderMarker = () => {
-        this.extractMarkerData(this.state.category).then((res) => {
-            let markerArray = res.markers;
-            this.setState({ markerArray: res.markers });
-        })
+        this.extractMarkerData(this.state.category).then((res) => 
+            this.setState({ markerArray: res.markers })
+        );
     }
     onClickMapIcon = (ID) => {
         console.log(ID); /*This will go to next page */
@@ -84,10 +86,11 @@ export default class Map extends Component {
                             <Marker
                                 lat={marker.position.lat}
                                 lng={marker.position.lng}
-                                clickEvent={() => this.onClickMapIcon(marker.storeID)}
                                 key={id}
                                 markerStyleClass={this.state.category}
                                 icon={<i className="fas fa-map-marker-alt"></i>}
+                                category={this.state.category}
+                                storeID={marker.storeID}
                             />
                         )
                     }
@@ -95,13 +98,13 @@ export default class Map extends Component {
                 <div className="checkbox-wrapper">
                     <div className="filter-heading">Filter by</div>
                     <label className="container attraction-container">Grocery
-                    <input type="radio" className="messageCheckbox" value="grocery" checked={category == "grocery"} onChange={(e) => { this.onCategoryChange(e) }} /> <span className="checkmark"></span>
+                    <input type="radio" className="messageCheckbox" value="grocery" checked={category === "grocery"} onChange={(e) => { this.onCategoryChange(e) }} /> <span className="checkmark"></span>
                     </label>
                     <label className="container church-container">Medical
-                        <input type="radio" className="messageCheckbox" value="medical" checked={category == "medical"} onChange={(e) => { this.onCategoryChange(e) }} /> <span className="checkmark"></span>
+                        <input type="radio" className="messageCheckbox" value="medical" checked={category === "medical"} onChange={(e) => { this.onCategoryChange(e) }} /> <span className="checkmark"></span>
                     </label>
                     <label className="container museum-container">Household
-                        <input type="radio" className="messageCheckbox" value="household" checked={category == "household"} onChange={(e) => { this.onCategoryChange(e) }} /> <span className="checkmark"></span>
+                        <input type="radio" className="messageCheckbox" value="household" checked={category === "household"} onChange={(e) => { this.onCategoryChange(e) }} /> <span className="checkmark"></span>
                     </label>
 
                     <i className="fa fa-chevron-down filter" aria-hidden="true"></i>

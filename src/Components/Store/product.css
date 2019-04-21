@@ -4,7 +4,7 @@ h2,p{
 }
 .product-wrapper {
     max-width: 60em;
-    margin: 100px auto;
+    margin: 100px auto 220px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 40px;

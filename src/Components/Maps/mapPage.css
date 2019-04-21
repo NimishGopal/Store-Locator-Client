@@ -28,19 +28,20 @@ display: none;
 }
 .checkbox-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     padding: 0px;
     -webkit-align-items: center;
     align-items: center;
     box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.18);
     place-items: center;
     position: absolute;
-    width: calc(90%);
+    width: calc(20%);
+    height: calc(100vh - 210px);
     background-color: #FFF;
     bottom: 0;
+    top: 0;
     left: 0;
-    right: 0;
-    margin: 0 auto;
+    margin: 60px auto 0;
 }
 .container {
 position: relative;
