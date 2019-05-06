@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './mapPage.css';
 
 
 const Marker = (props) => (
-    <Link to={`/${props.category}/${props.storeID}`}>
+    (props.userLocation) ?
+        <Link to={`/${props.category}/${props.storeID}`}>
+            <div className={`${props.markerStyleClass}`}>
+                {props.icon}
+            </div>
+        </Link> :
         <div className={`${props.markerStyleClass}`}>
             {props.icon}
         </div>
-    </Link>
 );
 const initialState = {
     "category": null, /*This will come from last page */
@@ -40,7 +44,7 @@ export default class Map extends Component {
         });
     }
     renderMarker = () => {
-        this.extractMarkerData(this.state.category).then((res) => 
+        this.extractMarkerData(this.state.category).then((res) =>
             this.setState({ markerArray: res.markers })
         );
     }
@@ -79,6 +83,7 @@ export default class Map extends Component {
                         lng={this.props.center.lng}
                         icon={<i className="fas fa-street-view"></i>}
                         markerStyleClass="current-location"
+                        userLocation={false}
                     />
                     {
                         (markerArray) &&
@@ -91,6 +96,7 @@ export default class Map extends Component {
                                 icon={<i className="fas fa-map-marker-alt"></i>}
                                 category={this.state.category}
                                 storeID={marker.storeID}
+                                userLocation
                             />
                         )
                     }

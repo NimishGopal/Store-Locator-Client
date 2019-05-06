@@ -65,3 +65,11 @@ h2,p{
     grid-column-gap: 10px;
     place-items: center;
 }
+@media(max-width: 768px){
+    .product-wrapper{
+        margin: 100px 10px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}

@@ -11,6 +11,7 @@ export default class CartItems extends React.Component {
         }
     }
     componentDidMount() {
+        console.log(this.props)
         this.setState({ cart: this.props.cartItems }, () => {
             document.body.style.overflow = "hidden";
             this.calculateTotal();
@@ -26,7 +27,7 @@ export default class CartItems extends React.Component {
 
     removeProducts = (key) => {
         let cart = this.state.cart;
-        if (!cart[key].quantity) cart.splice(key);
+        if (cart[key].quantity<=1) ;
         else cart[key].quantity -= 1;
         this.setState({ cart }, () => this.calculateTotal())
     }
@@ -79,7 +80,10 @@ export default class CartItems extends React.Component {
                                     </div>
                                     <Link to={{
                                         pathname: `${this.props.path}/checkout`,
-                                        state: this.state.cart
+                                        state: {
+                                            "cart": this.state.cart,
+                                            "total": this.state.total
+                                        }
                                     }}>
                                         <div className="checkout-cta-active">
                                             <span>Proceed for Checkout</span>

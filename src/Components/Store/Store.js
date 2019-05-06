@@ -46,7 +46,7 @@ export default class Store extends React.Component {
         else{
             if(currentStore !== storeID){
                 localStorage.clear('cart');
-                this.setState({storeID: storeID})
+                window.location.reload();
             }
         }
         this.setState({ storeID: storeID, category: category }, () => {
@@ -126,6 +126,8 @@ export default class Store extends React.Component {
         this.updateCart(prods[key].name, prods[key].prodID, prods[key].quantity, prods[key].price, prods[key].src);
         this.setState({ productList: prods })
     }
+
+    updateCartState = (cart) => this.setState({cart: cart})
 
     render() {
         return (

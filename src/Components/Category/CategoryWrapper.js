@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import CategoryBox from './CategoryBox';
 import './categoryPage.css';
 
@@ -10,13 +10,16 @@ class CategoryWrapper extends Component {
         };
     };
     componentDidMount() {
-        fetch('http://localhost:5000/')
-            .then(response => response.json())
-            .then(data => this.setState({ data }));
+        if (this.props.location.pathname !== 'login') {
+            fetch('http://localhost:5000/')
+                .then(response => response.json())
+                .then(data => this.setState({ data }));
+        }
     }
     render() {
         const { data } = this.state;
         return (
+            (this.props.location.pathname !== 'login') &&
             <div className="category-wrapper">
                 <h1>Select a Category:</h1>
                 <div className="category-box-wrapper">

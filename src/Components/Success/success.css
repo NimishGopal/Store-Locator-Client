@@ -1,0 +1,36 @@
+.success-wrapper{
+    display: grid;
+    height: max-content;
+    transform: translateY(150px);
+    place-items: center;
+    grid-row-gap: 40px 
+}
+.success-wrapper > i {
+    font-size: 48px;
+    color: #2cc82c;
+    animation: bounce 3s infinite;
+}
+.success-wrapper > p {
+    font-size: 36px;
+    font-family: Avenir;
+    color: #545454;
+}
+.home-link{
+    font-size: 24px;
+    font-style: italic;
+    color: #0060ff;
+}
+@media(max-width: 768px){
+    .success-wrapper{
+        height: calc(100vh - 160px);
+        grid-row-gap: 20px;
+        transform: translateY(150px);
+        grid-template-rows: repeat(3, max-content);
+    }
+    .success-wrapper > p{
+        font-size: 20px;
+    }
+    .home-link{
+        font-size: 18px;
+    }
+}

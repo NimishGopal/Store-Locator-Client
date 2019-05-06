@@ -47,7 +47,7 @@ input:focus{
 }
 .checkout__cart {
     background-color: #FFF;
-    box-shadow: 0 0px 2px 0 rgba(0,0,0,.22);
+    box-shadow: 0 0px 1px 0 rgba(0,0,0,.22);
     max-height: 310px;
     overflow: hidden;
     overflow-y: scroll;
@@ -61,7 +61,7 @@ input:focus{
 .checkout-cart__wrapper{
     display: grid;
     justify-content: center;
-    grid-template-rows: max-content max-content;
+    grid-template-rows: max-content max-content max-content;
 }
 .paypal-button__wrapper{
     display: grid;
@@ -79,6 +79,44 @@ input:focus{
     background-color: #dfdede;
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
+.checkout-cart__wrapper > p {
+    font-size: 20px;
+    text-align: right;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #FFF;
+    box-shadow: 0 0px 2px 0 rgba(0,0,0,.22);
+    color: #121212;
+}
 .paypal-button__wrapper .paypal-button-tagline {
     display: none!important;
+}
+.cod{
+    background-color: #29bf26;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.login-button-container{
+    max-width: 800px;
+    margin: 200px auto 0;
+    display: grid;
+    place-items: center;
+    grid-row-gap: 30px;
+}
+.login-button-container > p {
+    font-size: 28px;
+    font-family: Avenir;
+}
+@media(max-width: 768px){
+    .checkout-wrapper{
+        grid-auto-flow: row;
+        grid-template-columns: unset;
+        justify-content: unset;
+        margin: 100px 20px 40px;
+        width: calc(100vw - 40px);
+        grid-row-gap: 20px;
+    }
+    .checkout-cart__wrapper{
+        display: block;
+    }
 }

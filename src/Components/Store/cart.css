@@ -1,7 +1,7 @@
 .cart{
     width: 55px;
     position: fixed;
-    right: 100px;
+    right: 130px;
     top: 0;
     z-index: 2;
 }
@@ -124,4 +124,17 @@
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
+}
+
+@media(max-width: 768px){
+    .cart-items{
+        width: 100vw;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;  
+        background: transparent;  
+    }
+    .cart{
+        right: 40px;
+    }
 }

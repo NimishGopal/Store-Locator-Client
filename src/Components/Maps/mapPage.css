@@ -147,6 +147,9 @@ transform: rotate(45deg);
     font-size: 3.5em;
 }
     @media (max-width: 768px) {
+        .google-map{
+            height: 100vh;
+        }
     .container {
     padding-left: 22px;
     line-height: 18px;
@@ -173,6 +176,7 @@ transform: rotate(45deg);
     overflow: hidden;
     place-items: flex-start;
     grid-area: filters;
+    display: none;
     }
     .filter {
     display: block !important;

@@ -1,0 +1,52 @@
+.login-register-wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    transform: translateY(150px);
+    display: grid;
+    grid-auto-flow: row;
+    height: max-content;
+    background-color: #FFF;
+    /* padding: 0 0px 30px; */
+}
+.tab-wrapper{
+    display: grid;
+    grid-auto-flow: column;
+    box-shadow: 0 0px 3px 0 rgba(0,0,0,.22);
+    position: sticky;
+    top:0;
+    background-color: #FFF;
+    width: 100%;
+}
+.tab-wrapper div{
+    font-size: 18px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+.tab-wrapper div:first-of-type{
+    border-right: 1px solid #ebebeb
+}
+.forms{
+    padding: 20px 30px;
+    max-height: 270px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.selected{
+    background-color: rgba(4, 191, 254, 0.6);
+    color: #FFF;
+}
+/* .checkout-button{
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+} */
+@media(max-width: 768px){
+    .login-register-wrapper{
+        height: calc(100vh - 160px);
+        grid-template-rows: max-content;
+        transform: translateY(100px);
+    }
+}

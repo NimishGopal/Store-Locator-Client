@@ -21,3 +21,33 @@
     width: 55px;
     height: auto;
 }
+.account-avatar {
+    font-size: 2em;
+    line-height: 60px;
+    color: #FFF;
+    position: absolute;
+    right: 100px;
+}
+.logout-hover-cta{
+    position: absolute;
+    background-color: #FFF;
+    color: #000;
+    font-size: 16px;
+    padding: 0 10px;
+    width: 100px;
+    top: 50px;
+    text-align: center;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+    cursor: pointer;
+}
+@media(max-width: 768px){
+    .account-avatar{
+        right: 10px;
+    }
+    .logo{
+        left: 10px;
+    }
+    .logout-hover-cta{
+        right: 0;
+    }
+}
