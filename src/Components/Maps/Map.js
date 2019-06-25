@@ -4,9 +4,14 @@ import { Link } from 'react-router-dom';
 import './mapPage.css';
 
 
-const Marker = (props) => (
-    (props.userLocation) ?
-        <Link to={`/${props.category}/${props.storeID}`}>
+const Marker = (props) => {
+    console.log(props)
+    return(
+        (props.userLocation) ?
+        <Link to={{
+            pathname: `/${props.category}/${props.storeID}`,
+            state: {title: props.title}
+        }}>
             <div className={`${props.markerStyleClass}`}>
                 {props.icon}
             </div>
@@ -14,7 +19,8 @@ const Marker = (props) => (
         <div className={`${props.markerStyleClass}`}>
             {props.icon}
         </div>
-);
+    );
+};
 const initialState = {
     "category": null, /*This will come from last page */
     "markerArray": null,
@@ -96,6 +102,7 @@ export default class Map extends Component {
                                 icon={<i className="fas fa-map-marker-alt"></i>}
                                 category={this.state.category}
                                 storeID={marker.storeID}
+                                title={marker.title}
                                 userLocation
                             />
                         )

@@ -12,7 +12,8 @@ export default class Store extends React.Component {
             category: null,
             productList: [],
             cart: [],
-            shouldOpenCart: false
+            shouldOpenCart: false,
+            title: ''
         }
     }
     // NOT A GREAT SOLUTION BUT DO THIS FOR NOW
@@ -68,7 +69,7 @@ export default class Store extends React.Component {
                         if(this.state.cart.length !== 0)
                          this.refactorProductList(this.state.cart, productList).then((res) => this.setState({ productList: res }))
                         else
-                        this.setState({ productList: productList })
+                        this.setState({ productList: productList, title: this.props.location.state.title })
                     });
                 });
         });
@@ -130,6 +131,7 @@ export default class Store extends React.Component {
     updateCartState = (cart) => this.setState({cart: cart})
 
     render() {
+        console.log(this.props.location)
         return (
             <div>
                 <Cart
@@ -138,6 +140,7 @@ export default class Store extends React.Component {
                     closeCart={() => this.closeCart()}
                     path={this.props.location.pathname}
                 />
+                <h1 style={{"text-align": "center", "marginTop": "100px"}}>{this.state.title}</h1>
                 <div className="product-wrapper">
                     {
                         (this.state.productList !== null) &&
